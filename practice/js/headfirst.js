@@ -32,7 +32,7 @@ function wakeUpUser() {
 // var a = '108' + 1000;
 // console.log(a);
 
-function whileLoop() {
+/*function whileLoop() {
   var scoops = 5;
   while (scoops > 0) {
     document.open();
@@ -41,3 +41,7 @@ function whileLoop() {
     scoops = scoops - 1;
   }
 }
+
+whileLoop();*/
+
+
