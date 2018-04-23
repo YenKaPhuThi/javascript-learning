@@ -19,7 +19,6 @@ var myName = 'Hoang Yen Chipu';
 console.log('myname is: ', myName);*/
 
 // Storing values with assignment operation
-
 /* var a = 9;
 var b;
 b = a;
@@ -63,4 +62,20 @@ console.log('4: ', x, '4: ', y); */
 // i ++;
 // i = i + 1;
 
+//Finding a remiander(%) in Javascript
+//A number can be checked even or odd by checking the remainder of devision of numer
 
+/*var remiander = 11;
+var remainder = remiander % 3;
+console.log(remainder);*/
+
+//Compound Assignment
+// += and -= *= /=;
+
+/*var a = 11;
+var b = 9;
+var c = 3;
+a -= 6;
+b -= 15;
+c -= 1;
+console.log(a, b, c);*/
