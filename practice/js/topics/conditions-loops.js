@@ -1,7 +1,12 @@
 /*** Init functions ***/
 var btnExercise1 = document.getElementById('btn-exercise1');
+var btnExercise2 = document.getElementById('btn-exercise2');
 btnExercise1.onclick = function() {
   findLargerNumber();
+}
+
+btnExercise2.onclick = function() {
+  starPattern();
 }
 
 /*** Exercise 1 ***/
@@ -28,4 +33,14 @@ btnExercise1.onclick = function() {
 
 
 /*** Exercise 2 ***/
+  function starPattern() {
+    var x, y, chr;
+    for (x = 1; x <= 6; x++) {
+      for (y = 1; y < x; y++) {
+        chr = chr + ("*");
+      }
 
+      console.log(chr);
+      chr = '';
+    }
+  }
