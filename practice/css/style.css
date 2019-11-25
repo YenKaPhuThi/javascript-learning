@@ -4,3 +4,25 @@
   font-size: 30px;
   font-weight: 700;
 }
+
+p {
+  margin-bottom: 0;
+}
+
+.block-operation {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.block-operation img {
+  width: 100%;
+}
+
+.section-opera + .section-opera {
+  margin-top: 24px;
+}
+
+.personal-answer p {
+  color: #666;
+}
